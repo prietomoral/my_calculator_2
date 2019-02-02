@@ -10,6 +10,7 @@
 			num.value = Math.pow(num.value, 3);
 		}
 		
+
 		function cuadrado() {
 			var num = document.getElementById("n1");
 			num.value = Math.pow(num.value, 2);
@@ -18,6 +19,11 @@
 		function inversa() {
 			var num = document.getElementById("n1");
 			num.value = 1 / num.value;
+		}
+		
+		function cuarta() {
+			var num = document.getElementById("n1");
+			num.value = Math.pow(num.value, 4);
 		}
 
 	</script>
@@ -31,6 +37,7 @@
 		<button onclick="cube()"> x^3 </button>
 		<button onclick="cuadrado()"> x^2 </button>
 		<button onclick="inversa()"> 1/x </button>
+		<button onclick="cuarta()"> x^4 </button>
 	</p>	
 </body>
 
